@@ -17,7 +17,7 @@ public class Main {
 
     @RequestMapping("/")
     @ResponseBody
-    String home() {
+    public String home() {
         return "Hello World! Jenkins";
     }
     public static void main(String[] args){
