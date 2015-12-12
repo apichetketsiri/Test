@@ -20,7 +20,7 @@ public class Main {
     public String home() {
         return "Hello World! Jenkins";
     }
-    public static void main(String[] args){
+    public static void main(String[] args) {
         SpringApplication.run(Main.class, args);
     }
 }
