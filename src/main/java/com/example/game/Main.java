@@ -18,7 +18,7 @@ public class Main {
     @RequestMapping("/")
     @ResponseBody
     String home() {
-        return "Hello World!";
+        return "Hello World! Jenkins";
     }
     public static void main(String[] args){
         SpringApplication.run(Main.class, args);
