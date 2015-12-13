@@ -20,6 +20,12 @@ public class Main {
     public String home() {
         return "Hello World! Jenkins";
     }
+    @RequestMapping("/version")
+    @ResponseBody
+    public String getVersion(){
+        return "1.1";
+
+    }
     public static void main(String[] args) {
         SpringApplication.run(Main.class, args);
     }
